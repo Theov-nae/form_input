@@ -1,0 +1,62 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(101,9,121);
+    background: linear-gradient(135deg, rgba(101,9,121,1) 32%, rgba(0,212,255,1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #eceff0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.btn-submit {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
